@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body { background-color: #f5f6fa; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header {
+      background-color: #0366d6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 4px solid #024d9c;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 { margin-bottom: 10px; }
+    p { color: #555; }
+    nav {
+      margin-top: 30px;
+    }
+    nav a {
+      display: inline-block;
+      background-color: #0366d6;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 10px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #024d9c;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Library Management System</h1>
+  </header>
+
+  <div class="container">
+    <h2>Welcome!</h2>
+    <p>This is a simple Python Flask app using Object-Oriented Programming and CSV storage.</p>
+
+    <nav>
+      <a href="{{ url_for('view_books') }}">View Books</a>
+      <a href="{{ url_for('add_book') }}">Add Book</a>
+      <a href="{{ url_for('view_members') }}">View Members</a>
+      <a href="{{ url_for('add_member') }}">Add Member</a>
+    </nav>
+  </div>
+
+  <footer>
+    <p>Created by <strong>Emmanuel Akwasi Opoku</strong> | © {{ 2025 }}</p>
+  </footer>
+
+</body>
+</html>
