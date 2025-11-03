@@ -75,9 +75,3 @@ library_app/
 - Book IDs and Member IDs should be unique.
 - CSV files are created automatically with headers.
 
-## Extend Ideas
-- Add search & pagination
-- Track due dates & fines
-- Add a dropdown of members on the Books page (pre-populate from CSV)
-- Switch CSV to SQLite for more robust storage
-
