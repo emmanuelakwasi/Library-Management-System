@@ -1,10 +1,10 @@
-# 📚 Flask Library Management System (OOP + CSV)
+# Flask Library Management System (OOP + CSV)
 
 **Created by Emmanuel A. Opoku**  
-**Course:** CS 120 – Introduction to Computer Science  
+**Course:** CS 120 – Python
 **Institution:** Grambling State University
 
----
+
 
 ## Project Background
 
